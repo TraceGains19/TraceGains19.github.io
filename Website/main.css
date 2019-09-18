@@ -1,0 +1,241 @@
+.header-container {
+	width: 100%;
+	position: relative;
+	padding: 1px;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+video.header {
+	width: 100%;
+	position: absolute;
+	z-index: -100;
+}
+
+h1, h4 {
+	text-align: center;
+	color: #ffffff;
+}
+
+h1 {
+	margin-top: 8%;
+	font-size: 800%;
+}
+
+h4 {
+	margin-bottom: 10%;
+	font-size: 200%;
+}
+
+.welcome {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.left {
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+
+.welcome-note {
+	color: #414042;
+	font-weight: 200;
+	padding: 5%;
+	font-size: 140%;
+}
+
+.rightLogo {
+	width: 20%;
+	margin-right: 10%;
+	margin-top: 2%;
+	display: inline-block;
+	float: right;
+}
+
+@media (max-width: 850px) {
+	.rightLogo {
+		display: block;
+		float: none;
+		margin-left: 40%;
+	}
+}
+
+.all-episodes {
+	background: #ffffff;
+	height: 50vh;
+}
+
+.season-container {
+	background-color: #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    width: 23%; 
+    margin: 1%;
+    float: left;
+}
+
+.season-container figure {
+	height: 0;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.season-container figure a {
+	display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 0;
+}
+
+.episode-title {
+	color: #414042;
+}
+
+@media (max-width: 1024px) {
+    .season-container {
+      width: 31.333%; /* Thumbnails 3 across */
+    }
+}
+
+@media (max-width: 600px) {
+    .season-container {
+      width: 48%; /* Thumbnails 2 across */
+    }
+}
+
+@media (max-width: 360px) {
+    .season-container {
+      display: block;
+      width: 96%; /* Single column view. */
+      margin: 2%; /* The smaller the screen, the smaller the percentage actually is. */
+      float: none;
+    }
+}
+
+.season-container img {
+    width: 100%;
+    opacity: 1;
+}
+
+.season-container img:hover, .season-container img:active, .season-container img:focus {
+    opacity: 0.75;
+}
+
+.suggestForm {
+	border-radius: 5px;
+  	background-color: #ffffff;
+  	padding: 20px;
+}
+
+input[type=text], select, textarea {
+ 	width: 100%;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+	background-color: #e0e0e0;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  	background-color: #dc4a20;
+  	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  	background-color: #00609c;
+}
+
+.footer-distributed {
+	background-color: #e0e0e0;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+	color: #8f9296;
+	font-size: 16px;
+	margin: 0;
+}
+
+/* Footer links */
+.footer-distributed p.footer-links {
+	font-size:18px;
+	font-weight: bold;
+	color:  #414042;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-right {
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #dc4a20;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+
+.footLogo {
+	width: 200px;
+	margin-top: 2%;
+}
+
+@media (max-width: 600px) {
+	.footer-distributed .footer-left, .footer-distributed .footer-right {
+		text-align: center;
+	}
+	.footer-distributed .footer-right {
+		float: none;
+		margin: 0 auto 20px;
+	}
+	.footer-distributed .footer-left p.footer-links {
+		line-height: 1.8;
+	}
+}
+
+
+
+
+
+
